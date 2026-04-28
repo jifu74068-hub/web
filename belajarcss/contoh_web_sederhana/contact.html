@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contact - Kuliner Nusantara</title>
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+      }
+
+      header {
+        background-color: #5a639c;
+        color: white;
+        text-align: center;
+        padding: 20px;
+      }
+
+      nav {
+        background-color: #7776b3;
+        padding: 10px;
+        text-align: center;
+      }
+
+      nav a {
+        color: white;
+        margin: 0 15px;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      nav a:hover {
+        text-decoration: underline;
+      }
+
+      section {
+        padding: 20px;
+      }
+
+      .contact-box {
+        max-width: 500px;
+        margin: auto;
+        border: 1px solid #ccc;
+        padding: 20px;
+      }
+
+      form input,
+      form textarea {
+        width: 100%;
+        padding: 8px;
+        margin-top: 5px;
+      }
+
+      button {
+        background-color: #5a639c;
+        color: white;
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: #444a7a;
+      }
+
+      footer {
+        background-color: #5a639c;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Kuliner Nusantara</h1>
+      <p>Hubungi Kami</p>
+    </header>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="product.html">Product</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <section>
+      <h2>Kontak Kami</h2>
+
+      <p><strong>Alamat:</strong> Jl. Kuliner No. 123</p>
+      <p><strong>Telepon:</strong> 0812-3456-7890</p>
+      <p><strong>Email:</strong> kuliner@email.com</p>
+
+      <div class="contact-box">
+        <h3>Kirim Pesan</h3>
+
+        <form>
+          <label>Nama:</label>
+          <input type="text" name="nama" required />
+
+          <label>Email:</label>
+          <input type="email" name="email" required />
+
+          <label>Subjek:</label>
+          <input type="text" name="subjek" />
+
+          <label>Pesan:</label>
+          <textarea name="pesan" rows="5" required></textarea>
+
+          <br /><br />
+          <button type="submit">Kirim</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2026 Kuliner Nusantara</p>
+    </footer>
+  </body>
+</html>
